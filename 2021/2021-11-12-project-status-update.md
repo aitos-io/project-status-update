@@ -81,7 +81,7 @@ In the past two weeks, BoAT Framework was improved by optimizing some code, fixi
 
 
 ## Highlights of Ecosystem Update
-* [Nov 4th, aitos.io and Wanxiang Blockchain are quoted in this report as how BoAT + PlatONE solution to enable the trusted digial base for green economy with new edging technologies such as IoT and Blockchain. ](https://www.bis.org/about/bisih/topics/green_finance/green_bonds.htm)
-* [Nov 5th, aitos.io, as the partner of PSA Certified is honored to be shortlisted for Ecosystem of the year.](https://www.linkedin.com/feed/update/urn:li:activity:6862221143072485376)
-* [Sep 26th, Leo Lin, CEO of autos.io, was invited to be a guest speaker of the roundtable themed "Blockchain + Fusion Technologies to Build a trusted digital Base"](https://mp.weixin.qq.com/s?__biz=MzU0NTk5NjE2OA==&mid=2247485975&idx=1&sn=d8e178825a8a9df4e3d09758a15d6d8c&chksm=fb6526f0cc12afe6675da232388cf6663782303cf48ae68b05ed3dac37230502ec6a8bd4f478&token=1851065894&lang=zh_CN#rd)
+* [Nov 19th, Leo Lin, CEO of autos.io, visited Singapore's Punggol Digital District (PDD) Smart City in person.aitos.io and Wanxiang Blockchain are jointly developing of their “PlatONE+BoAT IoT Data Empowerment Platform” at Singapore’s Punggol Digital District. ](https://www.linkedin.com/feed/update/urn:li:activity:6827965464845541376)
+* [Nov 26th, Leo Lin, CEO of autos.io paid an official visit to Lippo Group's Chairman of the Board Li Wenzheng.  “SCI” will play a key role in aitos.io’s Smart City innovations and overseas expansion strategy in ASEAN region. ](https://www.linkedin.com/feed/update/urn:li:activity:6863424191924973568)
+* [Nov 19th, aitos.io was invited to attend  #SEQUOIA2021 DIGITAL TECH offline activities. aitos.io BoAT came to the old Shanghai shipyard MIFA 1862 Art Center for upgrading.](https://www.yun-live.com/h5/sequoiacaptech/2410)
 
