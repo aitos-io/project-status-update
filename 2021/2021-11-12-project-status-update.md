@@ -1,70 +1,83 @@
 # BoAT Project Status Update
-Date: October 15th, 2021
+Date: November 12th, 2021
 
 
 ## Update Summary
-The version of V2.1.1 mainly updated some makefile files to adjust the compile and build system to cmake. Also, some bugfixes, code formattings and documents updates were did.
+In the past two weeks, BoAT Framework was improved by optimizing some code, fixing some bugs and issues, uniforming some code format, updating the user guide documents and some README files.
 
-## Releases
-[BoAT-X-v2.1.1](https://github.com/aitos-io/BoAT-X-Framework/releases/tag/BoAT-X-v2.1.1) is released.
-
-**Change Log**
-
-- Update makefile and adjust to cmake build system
-- Fix some bugs and compile issues
-- Uniform some code format
-- Update BoAT 2.x User Guide documents (Chinese and English version)
-- Update BoAT 2.x Overall Design documents (English version)
-- Update BoAT 2.x Getting Started documents (English version)
+## Change Log
+- Optimized some code
+- Fixed some bugs
+- Uniformed some code format
+- Updated BoAT 2.x User Guide documents (Chinese and English version)
+- Updated some README files (Chinese and English version)
 
 
 ## Major Commits
-* [refactor: Uniform code format](https://github.com/aitos-io/BoAT-X-Framework/commit/02d84e84750fb86671d8e1b7bd2a40402c83c0b4)
-* [Add supported blockchain: Huawei BCS](https://github.com/aitos-io/BoAT-X-Framework/commit/e4fe3556fdab3863c2ac6e53331760860b5c6cf3)
-* [fix: Added an error return statement](https://github.com/aitos-io/BoAT-X-Framework/commit/ae4d76b3b9181f271ea9ed96cb1f090cd92c1a21)
-* [refactor: Reduced duplicate code](https://github.com/aitos-io/BoAT-X-Framework/commit/bdc96e329367cb3ea275bc90cb0048d91d37d17c)
-* [docs: Changed a sentence and a formatting error](https://github.com/aitos-io/BoAT-X-Framework/commit/840086be953982e99bda1e54526ad68f0b58e1c3)
-* [docs: Change sentences of Implementation Framework](https://github.com/aitos-io/BoAT-X-Framework/commit/1553b475afe3facde634fc4cb6776db7a34cb1c2)
-* [perf(./Makefile): Adjust Makefile](https://github.com/aitos-io/BoAT-X-Framework/commit/6d364811845284690997661e71f8f0467071cfe3)
-* [refactor(MTK-MT3620): change name](https://github.com/aitos-io/BoAT-X-Framework/commit/7b36f94ac94d412b043f213e36525f78239e8303)
-* [refactor(L718): delect L718](https://github.com/aitos-io/BoAT-X-Framework/commit/f37bd45d0059ec8cd656e6f156042360bdcb6824)
-* [docs: Changed some statements in the Wallet Interface](https://github.com/aitos-io/BoAT-X-Framework/commit/dc699de09400cba9d58fb604cbc85c662943fe57)
-* [docs: Add hw_bcs to BoAT demo protocol](https://github.com/aitos-io/BoAT-X-Framework/commit/b5e8522f973f81be598144ace5ac221036a76a50)
-* [fix: Added validity checks for input variables](https://github.com/aitos-io/BoAT-X-Framework/commit/618722d397a44a2f101551ffa58f51a1f49d6fe0)
-* [refactor: Type modified to reduce warnings](https://github.com/aitos-io/BoAT-X-Framework/commit/6f2df719b703c2a6cb7e6a16401b20ebe014f722)
-* [fix: Fixed calls to null Pointers](https://github.com/aitos-io/BoAT-X-Framework/commit/eb4e9d4e84b923b849b76a4cafee73d09e0aeb33)
-* [fix: Added HRP input for querying account balance](https://github.com/aitos-io/BoAT-X-Framework/commit/f47014c4cf50e771436ae58152b0ec0a2dd53e62)
-* [refactor: Reduce the number of warnings](https://github.com/aitos-io/BoAT-X-Framework/commit/bf0112794dfca32c02622df1ef78654baa1911b4)
-* [docs: Add Huawei BCS to supported blockchain list](https://github.com/aitos-io/BoAT-X-Framework/commit/856f6b178490b3ca16e55c69e2a7ca9a41bf664f)
-* [docs: add HWBCS SDK configuration](https://github.com/aitos-io/BoAT-X-Framework/commit/d693bb161a9f7df8643d0cc2c23bdc8b5254052f)
-* [fix: Fixed incorrect input and judgment](https://github.com/aitos-io/BoAT-X-Framework/commit/d6297424395fce0e46d3af0c28d12e1854c6761e)
-* [fix: Add missing parentheses](https://github.com/aitos-io/BoAT-X-Framework/commit/c4b7f5fae564564177f8d9312b785dbc61c0903d)
-* [fix: Fixed using pointer before detecting whether pointer is null](https://github.com/aitos-io/BoAT-X-Framework/commit/37215cb6667a8011b5df8067119d6a554d8cbdce)
-* [docs: update description about full lifecycle](https://github.com/aitos-io/BoAT-X-Framework/commit/4ff3b9a002cd587590d18f516194412ce11325de)
+* [Fix: Added missing header file paths](https://github.com/aitos-io/BoAT-X-Framework/commit/f2c7df4725c42de641a794d5c20a53405b3ec815)
+* [fix: Fix error function calls](https://github.com/aitos-io/BoAT-X-Framework/commit/d40c9ed695319260dca000569b835e392766e67a)
+* [perf(mbedtls)](https://github.com/aitos-io/BoAT-X-Framework/commit/8b616c02a604c58d2128be15ed7fabb52d96a479)
+* [fix(boatwallet.h)](https://github.com/aitos-io/BoAT-X-Framework/commit/cd24657956babe4970ee92246d6b36ef3de124ab)
+* [fix(api_ethereum.c)](https://github.com/aitos-io/BoAT-X-Framework/commit/761dbd69e7bde2cbab3f07ce03420306e457efce)
+* [fix(api_hlfabric.c)](https://github.com/aitos-io/BoAT-X-Framework/commit/52ebdba41c0e86cd4ff74fb8a73db651fba67ac7)
+* [fix(boatwallet.c)](https://github.com/aitos-io/BoAT-X-Framework/commit/43ed9c33a5ea018b207914279781c5f5e70ff4d2)
+* [fix(sha256)](https://github.com/aitos-io/BoAT-X-Framework/commit/50f1d30cdcc89803fe80a8bf8893c4ef855bc404)
+* [Fix: Fix the position of parentheses in statements](https://github.com/aitos-io/BoAT-X-Framework/commit/4bae7f0d1fc83ec9afafb67c78c9a19b4d0541e3)
+* [fix(fabric)](https://github.com/aitos-io/BoAT-X-Framework/commit/8cf0fb15a0d19994f366e1994985250ca9c11245)
+* [update](https://github.com/aitos-io/BoAT-X-Framework/commit/765bc0816ff98e133c5e46fa9d4c56d8091f8347)
+* [Docs: Fixed errors in the documentation](https://github.com/aitos-io/BoAT-X-Framework/commit/14e66f37c161d748b6e9e7847e4b52f41e672e37)
+* [Update boatplatform.c](https://github.com/aitos-io/BoAT-X-Framework/commit/d2aeb6fb74ec486892cb3e1ee8e62cc695577a8b)
+* [docs: update fabric to Hyperledger Fabric](https://github.com/aitos-io/BoAT-X-Framework/commit/68ad81e98a7b3ca675dc5e38670654aa2eb8bbaf)
+* [Docs: Change a grammar sentence](https://github.com/aitos-io/BoAT-X-Framework/commit/71e9026fa2a84d5834746b352dad0213bc7c2317)
+* [refactor: Uniform code format](https://github.com/aitos-io/BoAT-X-Framework/commit/f9b81981d4e406b78c7e9bb2e566152b456b4341)
+* [docs: update a description of readme](https://github.com/aitos-io/BoAT-X-Framework/commit/a2b65dc60d934a60348c3c2e6c12e6fa10ea68b8)
+* [docs: update description about embedded devices](https://github.com/aitos-io/BoAT-X-Framework/commit/29bcbcc723a9f2ae28b78c5741088e7a1fb3a792)
+* [docs: Fix formatting errors in punctuation marks](https://github.com/aitos-io/BoAT-X-Framework/commit/e59f888170947588ea0686c9a2d47eea2d2eb02d)
+* [docs: Modify the format of the module name](https://github.com/aitos-io/BoAT-X-Framework/commit/2e17978976038fbaba9e1ad75e293c088203eb13)
+* [docs: Fix inappropriate statements](https://github.com/aitos-io/BoAT-X-Framework/commit/da1263dc9a8302adee8180f98b4d1b45312df77a)
+* [docs: Fix the wrong compilation process](https://github.com/aitos-io/BoAT-X-Framework/commit/96312a5d00303c8d733f5211ec2bd4e57c189c42)
+* [docs: updata BoAT_User_Guide_cn.md](https://github.com/aitos-io/BoAT-X-Framework/commit/192e20cf0751bceae8d54a0a983eeb276fad9fb7)
+* [docs: updata BoAT_User_Guide_en.md](https://github.com/aitos-io/BoAT-X-Framework/commit/9eccb1c2e99e7eb56f2d2de38347f2b72906c839)
+* [fix(ethereum): Can fill in data correctly according to input data](https://github.com/aitos-io/BoAT-X-Framework/commit/762e7f95c5ff868875e6dd8cef5b85fe71ecc7be)
 
 ## Major Issues
 
 **Open**
 
-- [CMAKE instructions are required in User Guild](https://github.com/aitos-io/BoAT-X-Framework/issues/328)
-- [BoAT-X-Framework/BoAT User Guide/Add Huawei BCS description to Compile and Run Demo](https://github.com/aitos-io/BoAT-X-Framework/issues/337)
-- [There is one problem with the files generated by Python](https://github.com/aitos-io/BoAT-X-Framework/issues/338)
+- [Incompatible Python scripts were found](https://github.com/aitos-io/BoAT-X-Framework/issues/355)
+- [Failed to call the Platone DEMO](https://github.com/aitos-io/BoAT-X-Framework/issues/356)
+- [linux-default/src/port_crypto_default/boatplatform.c Compile failed](https://github.com/aitos-io/BoAT-X-Framework/issues/357)
+- [English Docs/ Grammar Suggestions](https://github.com/aitos-io/BoAT-X-Framework/issues/358)
+- [语句太长，读者阅读易疲惫](https://github.com/aitos-io/BoAT-X-Framework/issues/365)
+- [BoAT_User_Guide_cn.md suggestion](https://github.com/aitos-io/BoAT-X-Framework/issues/366)
+- [BoAT_User_Guide_en.md suggestion](https://github.com/aitos-io/BoAT-X-Framework/issues/367)
+- [XinYi-XY1100 can support fabric and FISCO-BCOS?](https://github.com/aitos-io/BoAT-X-Framework/issues/369)
+- [点击/docs/README.md下的“简体中文”文档访问404](https://github.com/aitos-io/BoAT-X-Framework/issues/370)
+- [Lack of punctuation](https://github.com/aitos-io/BoAT-X-Framework/issues/372)
+- [缺少标点符号](https://github.com/aitos-io/BoAT-X-Framework/issues/374)
+- [建议改为更合适的用词](https://github.com/aitos-io/BoAT-X-Framework/issues/375)
+- [BoAT-X-Framework/vendor/platform/MTK-MT3620/README_en.md](https://github.com/aitos-io/BoAT-X-Framework/issues/376)
+- [BoAT-X-Framework/vendor/platform/MTK-MT3620/README.md](https://github.com/aitos-io/BoAT-X-Framework/issues/377)
+- [add interfaces and update node information](https://github.com/aitos-io/BoAT-X-Framework/issues/380)
+- [The format of arguments in functions generated by Python scripts needs to be changed](https://github.com/aitos-io/BoAT-X-Framework/issues/381)
 
 **Closed**
 
-* [Not easy to find the Chinese Version documentation](https://github.com/aitos-io/BoAT-X-Framework/issues/318)
-* [Duplicate code exists in the program](https://github.com/aitos-io/BoAT-X-Framework/issues/323)
-* [There is no interrupt mechanism when an error occurs.](https://github.com/aitos-io/BoAT-X-Framework/issues/324)
-* [BoAT User Guide/English Docs/Grammar](https://github.com/aitos-io/BoAT-X-Framework/issues/325)
-* [BoAT User Guide/English Docs](https://github.com/aitos-io/BoAT-X-Framework/issues/327)
-* [BoAT-X-Framework/Readme/Add Huawei BCS to the <protocol>](https://github.com/aitos-io/BoAT-X-Framework/issues/329)
-* [Input variables are not checked](https://github.com/aitos-io/BoAT-X-Framework/issues/331)
-* [Use strlen for null Pointers](https://github.com/aitos-io/BoAT-X-Framework/issues/332)
-* [A function for PlatON defaults HRP to 'lax'](https://github.com/aitos-io/BoAT-X-Framework/issues/333)
-* [Returns the local variable value as the result](https://github.com/aitos-io/BoAT-X-Framework/issues/334)
-* [BoAT-X-Framework/BoAT User Guide/Add Huawei BCS to the supported blockchain](https://github.com/aitos-io/BoAT-X-Framework/issues/335)
-* [BoAT-X-Framework/BoAT User Guide/Add Huawei BCS to the top-level makefile](https://github.com/aitos-io/BoAT-X-Framework/issues/336)
-* [Use the pointer first and then check whether the pointer is null](https://github.com/aitos-io/BoAT-X-Framework/issues/339)
+* [Follow the L610 integration instructions step by step, the compilation will fail](https://github.com/aitos-io/BoAT-X-Framework/issues/350)
+* [Ethereum-like blockchain demo running error](https://github.com/aitos-io/BoAT-X-Framework/issues/351)
+* [USE_LOAD_PERSIST_WALLET err](https://github.com/aitos-io/BoAT-X-Framework/issues/352)
+* [An error during make tests](https://github.com/aitos-io/BoAT-X-Framework/issues/353)
+* [fabric_demo err](https://github.com/aitos-io/BoAT-X-Framework/issues/354)
+* [Error signing result when using PLATONE with L610](https://github.com/aitos-io/BoAT-X-Framework/issues/359)
+* [BoAT-X-Framework/BoAT User Guide/Suggest to use fabric full name](https://github.com/aitos-io/BoAT-X-Framework/issues/361)
+* [Grammar Suggestions](https://github.com/aitos-io/BoAT-X-Framework/issues/362)
+* [Figure 4-5 and Figure 4-6 under BoAT_Overall_Design_en.md cannot be found and opened](https://github.com/aitos-io/BoAT-X-Framework/issues/363)
+* [Yanfei应该写成Yanei](https://github.com/aitos-io/BoAT-X-Framework/issues/364)
+* [BoAT-X Framework for XinYi-XY1100 Integration Guideline/ section “Copy files”- missing space symbol](https://github.com/aitos-io/BoAT-X-Framework/issues/368)
+* [BoAT-X Framework for XinYi-XY1100 Integration Guideline/Section "Copy files"- ambiguous description](https://github.com/aitos-io/BoAT-X-Framework/issues/371)
+* [Punctuation problems](https://github.com/aitos-io/BoAT-X-Framework/issues/373)
+* [Error during compile process description in Neoway-N58 readme](https://github.com/aitos-io/BoAT-X-Framework/issues/378)
+* [Error during compile process description in YanFei-CUIot-MZ-6 readme](https://github.com/aitos-io/BoAT-X-Framework/issues/379)
 
 
 ## Highlights of Ecosystem Update
